@@ -1,0 +1,19 @@
+.all-tasks {
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 10px;
+  
+        button {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .task_deleted{
+text-decoration: line-through;
+  }
+  

@@ -1,0 +1,16 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.tabs_link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: red;
+}
+.tabs_link:global(.active){
+background-color: red;
+color: white;
+}
